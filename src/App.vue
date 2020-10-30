@@ -6,6 +6,7 @@
 
 <script>
 import html5builder from "./components/html5builder/src/index";
+import BlocksBasic from "./components/html5builder/plugins/blocks-basic/index";
 
 export default {
   name: "App",
@@ -18,13 +19,17 @@ export default {
       height: "100%",
       // fromElement: true,
       storageManager: { autoload: 0 },
+      plugins: [BlocksBasic],
+      // pluginsOpts: {
+      //   "gjs-blocks-basic": {},
+      // },
     });
 
-    editor.BlockManager.add("testBlock", {
-      label: "块级元素",
-      attributes: { class: "gjs-fonts gjs-f-b1" },
-      content: `<div style="padding-top:50px; padding-bottom:50px; text-align:center;background-color:red;margin:45px">这是一个块级元素</div>`,
-    });
+    // editor.BlockManager.add("testBlock", {
+    //   label: "块级元素",
+    //   attributes: { class: "gjs-fonts gjs-f-b1" },
+    //   content: `<div style="padding-top:50px; padding-bottom:50px; text-align:center;background-color:red;margin:45px">这是一个块级元素</div>`,
+    // });
   },
 };
 </script>
