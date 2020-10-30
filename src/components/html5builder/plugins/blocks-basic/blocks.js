@@ -228,7 +228,7 @@ export default function(editor, opt = {}) {
     bm.add('link', {
       label: c.labelLink,
       category: c.category,
-      attributes: { class: 'fa fa-link' },
+      attributes: { class: 'gjs-fonts fa-link' },
       content: {
         type: 'link',
         content: 'Link',
