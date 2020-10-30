@@ -36,7 +36,7 @@ export default () => {
     ['copy', 'CopyComponent'],
     ['paste', 'PasteComponent'],
     ['canvas-move', 'CanvasMove'],
-    ['canvas-clear', 'CanvasClear'],
+    ['canvas-clear', 'CanvasClear', 'clear'],
     ['open-code', 'ExportTemplate', 'export-template'],
     ['open-layers', 'OpenLayers', 'open-layers'],
     ['open-styles', 'OpenStyleManager', 'open-sm'],
@@ -51,7 +51,7 @@ export default () => {
     ['component-prev', 'ComponentPrev'],
     ['component-enter', 'ComponentEnter'],
     ['component-exit', 'ComponentExit', 'select-parent'],
-    ['component-delete', 'ComponentDelete'],
+    ['component-delete', 'ComponentDelete', 'delete'],
     ['component-style-clear', 'ComponentStyleClear'],
     ['component-drag', 'ComponentDrag']
   ];

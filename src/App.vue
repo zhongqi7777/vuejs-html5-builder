@@ -17,7 +17,7 @@ export default {
       container: "#gjs",
       height: "100%",
       // fromElement: true,
-      storageManager: { autoload: 0 },
+      // storageManager: { autoload: 0 },
     });
 
     editor.BlockManager.add("testBlock", {
