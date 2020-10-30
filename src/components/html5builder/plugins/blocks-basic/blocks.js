@@ -248,29 +248,29 @@ export default function(editor, opt = {}) {
       }
     });
 
-  toAdd('video') &&
-    bm.add('video', {
-      label: c.labelVideo,
-      category: c.category,
-      attributes: { class: 'fa fa-youtube-play' },
-      content: {
-        type: 'video',
-        src: 'img/video2.webm',
-        style: {
-          height: '350px',
-          width: '615px'
-        }
-      }
-    });
+  // toAdd('video') &&
+  //   bm.add('video', {
+  //     label: c.labelVideo,
+  //     category: c.category,
+  //     attributes: { class: 'fa fa-youtube-play' },
+  //     content: {
+  //       type: 'video',
+  //       src: 'img/video2.webm',
+  //       style: {
+  //         height: '350px',
+  //         width: '615px'
+  //       }
+  //     }
+  //   });
 
-  toAdd('map') &&
-    bm.add('map', {
-      label: c.labelMap,
-      category: c.category,
-      attributes: { class: 'fa fa-map-o' },
-      content: {
-        type: 'map',
-        style: { height: '350px' }
-      }
-    });
+  // toAdd('map') &&
+  //   bm.add('map', {
+  //     label: c.labelMap,
+  //     category: c.category,
+  //     attributes: { class: 'fa fa-map-o' },
+  //     content: {
+  //       type: 'map',
+  //       style: { height: '350px' }
+  //     }
+  //   });
 }

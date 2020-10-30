@@ -25,9 +25,9 @@ export default html5builder.plugins.add('gjs-blocks-basic', (editor, opts = {}) 
     labelColumn37: '两列 3/7', //2 Columns 3/7
     labelText: '文本',// Text
     labelLink: '超链接',// Link
-    labelImage: 'Image', // Image
-    labelVideo: '视频',// Video
-    labelMap: '地图',// Map
+    labelImage: '图片', // Image
+    // labelVideo: '视频',// Video
+    // labelMap: '地图',// Map
     rowHeight: 75,
     ...opts
   };
