@@ -18,11 +18,11 @@ export default {
       container: "#gjs",
       height: "100%",
       // fromElement: true,
-      storageManager: { autoload: 0 },
       plugins: [BlocksBasic],
       // pluginsOpts: {
       //   "gjs-blocks-basic": {},
       // },
+      // storageManager: { autoload: 0 },
     });
 
     // editor.BlockManager.add("testBlock", {

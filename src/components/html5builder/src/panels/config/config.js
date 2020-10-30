@@ -6,6 +6,7 @@ const ola = 'open-layers';
 const obl = 'open-blocks';
 const ful = 'fullscreen';
 const prv = 'preview';
+const trash = 'clear';
 
 export default {
   stylePrefix: 'pn-',
@@ -46,6 +47,13 @@ export default {
           className: 'fa fa-code',
           command: expt,
           attributes: { title: 'View code' }
+        },
+        {
+          id: trash,
+          className: 'fa fa-trash',
+          command: trash,
+          context: trash,
+          attributes: { title: 'clear' }
         }
       ]
     },
